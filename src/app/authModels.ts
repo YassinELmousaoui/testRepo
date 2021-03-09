@@ -12,3 +12,9 @@ export interface requestTokenResponce {
     success: boolean,
     status_code: number
   }
+
+export interface DeleteAccessTokenResponce {
+    "status_message": string,
+    "success": boolean,
+    "status_code": number
+  }
